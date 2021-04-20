@@ -1,0 +1,16 @@
+.clickable {
+    cursor: pointer;
+}
+
+.above {
+    z-index: 1;
+    position: relative;
+}
+
+.bellow {
+    z-index: -1;
+}
+
+.position-relative {
+    position: relative;
+}

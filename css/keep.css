@@ -1,0 +1,162 @@
+.screen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.keep-app {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.keep {
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    margin: 5px;
+    
+}
+
+.keep-main {
+    width: 100%;
+    padding: 0% 5%;
+  
+}
+
+.keep-labels {
+    width: 17%;
+    padding-left: 1%;
+}
+
+aside {
+    background-color: white;
+}
+
+.keep-label {
+    font-size: 1.3rem;
+}
+
+.labels-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.keeps-list {
+    display: grid;
+}
+
+@media (min-width: 600px) {
+    .keeps-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.CRUDIcon {
+    /* float: right; */
+}
+
+.adding-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    z-index: 1;
+    /* border:2px solid black; */
+    margin-top:5px;
+}
+
+.add-keep-btn {
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: #4267b2;
+    color: white;
+    outline: none;
+}
+
+.adding-btn-txt {
+    margin: auto auto;
+    text-align: right;
+    outline: none;
+}
+
+.large-btn {
+    float: right;
+    width: 7vh;
+    height: 7vh;
+    outline: none;
+}
+
+.small-btn {
+    width: 5vh;
+    height: 5vh;
+    outline: none;
+    /* padding-left: 30px; */
+}
+
+.add-txt-keep-btn {
+    position: relative;
+    /* bottom: 26vh;
+    right: 6vh; */
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 5vh;
+    height: 5vh;
+    background-color: #4267b2;
+    color: white;
+    outline: none;
+}
+
+.keep-edit {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+audio {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.new-keep-creator {
+    position: fixed;
+    top: 30vh;
+    padding: 10vh;
+    margin: auto;
+    background-color: #4267b2;
+    border-radius: 20px;
+}
+
+.cancel-btn {
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #4267b2;
+    outline: none;
+    font-size: 6rem;
+    position: fixed;
+    top: 5vh;
+    right: 5vh;
+}
