@@ -195,10 +195,10 @@ nav a:hover {
     border: 1px solid rgb(177, 153, 153);
     list-style: none;
     box-shadow: 5px 5px 5px lightgray;
-    animation-name: example;
+    /* animation-name: example;
     animation-duration: 8s;
     animation-iteration-count: infinite;
-    animation-delay: 2s;
+    animation-delay: 2s; */
 }
 
 @keyframes example {

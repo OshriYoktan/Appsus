@@ -3,7 +3,7 @@ import { bookService } from '../services/book-service.js';
 export default {
     template: `
         <section >
-        <input type="text" @change="searchBook" v-model="term"  class="book-add">
+        <input type="text" @change="searchBook" placeholder="Search On Internet" v-model="term"  class="book-add">
         <ul class="book-add-list">
             <li v-for="book in books">{{book.volumeInfo.title}} <button @click="addBook(book)">+</button></li>
         </ul>
